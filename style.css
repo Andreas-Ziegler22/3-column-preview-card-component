@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --orange-clr: hsl(31, 77%, 52%);
+  --d-cyan-clr: hsl(184, 100%, 22%);
+  --vd-cyan-clr: hsl(179, 100%, 13%);
+  --light-gray: hsl(0, 0%, 95%);
+}
+
+body {
+  background: var(--light-gray);
+  width: 375px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
