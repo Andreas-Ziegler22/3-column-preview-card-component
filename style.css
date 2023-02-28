@@ -13,6 +13,50 @@
 body {
   background: var(--light-gray);
   width: 375px;
+  min-height: 100vh;
+  margin: 20px auto;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.card-container {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 20px;
+  color: var(--light-gray);
+}
+.card .title {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 1.85rem;
+  font-weight: 700;
+}
+
+.card p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 1rem;
+  line-height: 1.75rem;
+}
+
+.card-sedans {
+  background: var(--orange-clr);
+}
+
+.card-suvs {
+  background: var(--d-cyan-clr);
+}
+
+.card-luxury {
+  background: var(--vd-cyan-clr);
+}
+
+.btn {
+  background: var(--light-gray);
+  color: var(--orange-clr);
 }
 
 .attribution {
