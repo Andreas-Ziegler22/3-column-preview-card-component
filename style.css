@@ -110,3 +110,19 @@ body {
     border-radius: 0 10px 10px 0;
   }
 }
+@media (min-width: 1200px) {
+  .card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 800px;
+    min-height: 100vh;
+    margin: auto;
+  }
+  .card-sedans {
+    border-radius: 10px 0 0 10px;
+  }
+  .card-luxury {
+    border-radius: 0 10px 10px 0;
+  }
+}
