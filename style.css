@@ -21,44 +21,67 @@ body {
 .card-container {
   border-radius: 10px;
   overflow: hidden;
+  padding: 20px;
 }
 
 .card {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  padding: 20px;
+  padding: 30px;
   color: var(--light-gray);
+}
+
+.card img {
+  margin-bottom: 20px;
 }
 .card .title {
   font-family: "Big Shoulders Display", cursive;
   font-size: 1.85rem;
   font-weight: 700;
+  margin-bottom: 20px;
 }
 
 .card p {
   color: hsla(0, 0%, 100%, 0.75);
   font-size: 1rem;
   line-height: 1.75rem;
+  margin-bottom: 20px;
 }
 
 .card-sedans {
   background: var(--orange-clr);
+  border-radius: 10px 10px 0 0;
+}
+.card-sedans .btn {
+  color: var(--orange-clr);
 }
 
 .card-suvs {
   background: var(--d-cyan-clr);
 }
-
+.card-suvs .tbn {
+  color: var(--d-cyan-clr);
+}
 .card-luxury {
   background: var(--vd-cyan-clr);
+  border-radius: 0 0 10px 10px;
 }
-
+.card .btn {
+  color: var(--vd-cyan-clr);
+}
 .btn {
   background: var(--light-gray);
-  color: var(--orange-clr);
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
 }
-
+.btn:hover {
+  background: transparent;
+  color: var(--light-gray);
+  border: 1px solid var(--light-gray);
+}
 .attribution {
   font-size: 11px;
   text-align: center;
