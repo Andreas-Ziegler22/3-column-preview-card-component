@@ -16,6 +16,10 @@ body {
   min-height: 100vh;
   margin: 20px auto;
   font-family: "Lexend Deca", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .card-container {
@@ -88,4 +92,21 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 990px) {
+  .card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 800px;
+    min-height: 100vh;
+    margin: auto;
+  }
+  .card-sedans {
+    border-radius: 10px 0 0 10px;
+  }
+  .card-luxury {
+    border-radius: 0 10px 10px 0;
+  }
 }
