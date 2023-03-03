@@ -53,11 +53,12 @@ main css commands it is easy to master final art is a wild horse
 
 My button hover are moving I want to fix it
 
+- ✅ Button fixed
+
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Andreas-Ziegler22](https://github.com/Andreas-Ziegler22)
+- Frontend Mentor - [@Andreas-Ziegler22](https://www.frontendmentor.io/profile/yourusername)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
